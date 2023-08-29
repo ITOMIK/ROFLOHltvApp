@@ -1,4 +1,4 @@
-package com.tomik.roflohltv
+package com.tomik.roflohltv.models
 
 data class Map(
     val id: Long,

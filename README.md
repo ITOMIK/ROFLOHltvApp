@@ -1,2 +1,2 @@
 # ROFLOHltvApp
- Android Application on Kotlin with comspose to display statistics of Local CyberSport Events
+ Android application to display statistics of local cybersport events. Developing using Kotlin with Jetpack Compose.

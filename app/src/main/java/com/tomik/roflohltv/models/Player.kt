@@ -1,4 +1,4 @@
-package com.tomik.roflohltv
+package com.tomik.roflohltv.models
 
 data class Player(
     val id: Long,
@@ -8,7 +8,7 @@ data class Player(
     val realName: String,
     val csgoProfile: CSGOPlayer,
     val valorantProfile: ValorantPlayer,
-    val FortniteProfile: FortnitePlayer,
+    val fortniteProfile: FortnitePlayer,
     val steamLink: String,
     val fortTLink: String,
     val valTLink: String,

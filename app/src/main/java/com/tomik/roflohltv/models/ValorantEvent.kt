@@ -1,4 +1,4 @@
-package com.tomik.roflohltv
+package com.tomik.roflohltv.models
 
 data class ValorantEvent(
     val id: Long,

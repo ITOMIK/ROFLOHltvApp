@@ -1,11 +1,11 @@
-package com.tomik.roflohltv
+package com.tomik.roflohltv.models
 
-data class ValorantPlayer(
+data class CSGOPlayer(
     val id: Long,
     val name: String,
     val kills: Int,
     val deaths: Int,
-    val acs: Int, //raiting
+    val raiting: Int, // rating
     val adr: Int,
     val kast: Int,
     val hs: Int,
@@ -13,5 +13,7 @@ data class ValorantPlayer(
     val fk: Int,
     val fd: Int,
     val team: String,
+    val maps: Int,
+    val rounds: Int,
     val playerId: Int
 )

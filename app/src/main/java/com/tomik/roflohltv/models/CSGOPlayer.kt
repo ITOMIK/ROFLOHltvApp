@@ -12,7 +12,7 @@ data class CSGOPlayer(
     val assists: Int,
     val fk: Int,
     val fd: Int,
-    val team: String,
+    val teamId: Int,
     val maps: Int,
     val rounds: Int,
     val playerId: Int

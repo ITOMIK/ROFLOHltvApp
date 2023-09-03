@@ -1,6 +1,6 @@
 package com.tomik.roflohltv.models
 
-data class ValorantPlayer(
+data class ValorantStatOfPlayer(
     val id: Long,
     val name: String,
     val kills: Int,
@@ -12,6 +12,6 @@ data class ValorantPlayer(
     val assists: Int,
     val fk: Int,
     val fd: Int,
-    val teamId: Int,
+    val curentTeamId: Int,
     val playerId: Int
 )

@@ -5,5 +5,6 @@ data class Map(
     val name: String,
     val score: String,
     val winnerId: Int,
-    val loserId: Int
+    val loserId: Int,
+    val logo: String
 )
